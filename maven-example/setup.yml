@@ -6,5 +6,5 @@
     - name: copy the artifact to the deployment directory
       copy:
          src: "/var/lib/jenkins/workspace/lab6/maven-example/target/myapp-1.0-SNAPSHOT.jar"
-         dest: "sudo /home/ubuntu/target/"
+         dest: "sudo /home/ubuntu/abcd/"
          remote_src: yes
